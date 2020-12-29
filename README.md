@@ -1,3 +1,12 @@
+# My installation notes
+1. `mamba install go`
+2. `go get github.com/rclone/rclone`
+  - This failed with "cannot find packages". Fixed with `cd ~/go/src/github.com/rclone/rclone && go get github.com/rclone/rclone` (also had to `mamba install gxx_linux-64`).
+3. Command was found in: `~/go/bin/rclone`
+
+---
+
+
 [<img src="https://rclone.org/img/logo_on_light__horizontal_color.svg" width="50%" alt="rclone logo">](https://rclone.org/)
 
 [Website](https://rclone.org) |
